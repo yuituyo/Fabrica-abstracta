@@ -94,5 +94,15 @@ namespace Fabrica_abstracta
             americanos1.Show();
             this.Hide();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Elegir_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

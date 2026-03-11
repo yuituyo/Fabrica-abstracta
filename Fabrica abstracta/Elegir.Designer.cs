@@ -82,6 +82,7 @@
             this.label6.TabIndex = 5;
             this.label6.Text = "Seleciona un restaurante";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel1
             // 
@@ -193,7 +194,6 @@
             // pictureBox3
             // 
             this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox3.Enabled = false;
             this.pictureBox3.Image = global::Fabrica_abstracta.Properties.Resources.japones_inicio;
             this.pictureBox3.Location = new System.Drawing.Point(0, 0);
             this.pictureBox3.Name = "pictureBox3";
@@ -270,6 +270,7 @@
             this.Name = "Elegir";
             this.Text = "Elegir";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Elegir_FormClosed);
+            this.Load += new System.EventHandler(this.Elegir_Load);
             this.panel1.ResumeLayout(false);
             this.panel_americano.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();

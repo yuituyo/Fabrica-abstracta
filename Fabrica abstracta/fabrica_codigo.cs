@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Fabrica_abstracta
 {
@@ -32,7 +33,10 @@ namespace Fabrica_abstracta
     {
         public override void PedirC()
         {
-            Console.WriteLine("Comida: Tacos");
+
+            MessageBox.Show("Comida: Tacos");
+
+            
         }
     }
 
@@ -40,7 +44,7 @@ namespace Fabrica_abstracta
     {
         public override void ServirB()
         {
-            Console.WriteLine("Bebida: Agua de Jamaica");
+            MessageBox.Show("Bebida: Agua de Jamaica");
         }
     }
 
@@ -48,7 +52,7 @@ namespace Fabrica_abstracta
     {
         public override void OrdenarP()
         {
-            Console.WriteLine("Postre: Pastel de Tres Leches");
+            MessageBox.Show("Postre: Pastel de Tres Leches");
         }
     }
     //Comida China
@@ -56,7 +60,7 @@ namespace Fabrica_abstracta
     {
         public override void PedirC()
         {
-            Console.WriteLine("Comida: Pollo Cantones");
+            MessageBox.Show("Comida: Pollo Cantones");
         }
     }
 
@@ -64,7 +68,7 @@ namespace Fabrica_abstracta
     {
         public override void ServirB()
         {
-            Console.WriteLine("Bebida: Te de Jazmin");
+            MessageBox.Show("Bebida: Te de Jazmin");
         }
     }
 
@@ -72,7 +76,7 @@ namespace Fabrica_abstracta
     {
         public override void OrdenarP()
         {
-            Console.WriteLine("Postre: Rollos Dulces");
+            MessageBox.Show("Postre: Rollos Dulces");
         }
     }
     //Comida Japonesa
@@ -81,14 +85,14 @@ namespace Fabrica_abstracta
     {
         public override void PedirC()
         {
-            Console.WriteLine("Comida: Ramen");
+            MessageBox.Show("Comida: Ramen");
         }
     }
     public class Sake : Bebida
     {
         public override void ServirB()
         {
-            Console.WriteLine("Bebida: Sake");
+            MessageBox.Show("Bebida: Sake");
         }
     }
 
@@ -96,7 +100,7 @@ namespace Fabrica_abstracta
     {
         public override void OrdenarP()
         {
-            Console.WriteLine("Postre: Dango");
+            MessageBox.Show("Postre: Dango");
         }
     }
     //Comida Italiana
@@ -104,7 +108,7 @@ namespace Fabrica_abstracta
     {
         public override void PedirC()
         {
-            Console.WriteLine("Comida: Pizza");
+            MessageBox.Show("Comida: Pizza");
         }
     }
     public class Vino : Bebida
@@ -112,14 +116,14 @@ namespace Fabrica_abstracta
         public override void ServirB()
         {
 
-            Console.WriteLine("Bebida: Vino");
+            MessageBox.Show("Bebida: Vino");
         }
     }
     public class Tiramisu : Postre
     {
         public override void OrdenarP()
         {
-            Console.WriteLine("Postre: Tiramisu");
+            MessageBox.Show("Postre: Tiramisu");
         }
     }
     //Comida Americana
@@ -127,21 +131,21 @@ namespace Fabrica_abstracta
     {
         public override void PedirC()
         {
-            Console.WriteLine("Comida: Hamburguesa");
+            MessageBox.Show("Comida: Hamburguesa");
         }
     }
     public class DrPepper : Bebida
     {
         public override void ServirB()
         {
-            Console.WriteLine("Bebida: Dr Pepper");
+            MessageBox.Show("Bebida: Dr Pepper");
         }
     }
     public class PayManzana : Postre
     {
         public override void OrdenarP()
         {
-            Console.WriteLine("Postre: Pay de Manzana");
+            MessageBox.Show("Postre: Pay de Manzana");
         }
     }
     //Fabricas concretas
