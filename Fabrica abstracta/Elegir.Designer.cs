@@ -111,7 +111,6 @@
             // 
             this.label5.BackColor = System.Drawing.Color.Blue;
             this.label5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label5.Enabled = false;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(0, 158);
             this.label5.Name = "label5";
@@ -147,7 +146,6 @@
             // 
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.label4.Enabled = false;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(0, 158);
             this.label4.Name = "label4";

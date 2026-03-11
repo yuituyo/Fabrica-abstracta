@@ -40,5 +40,11 @@ namespace Fabrica_abstracta
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            anterior.Show();
+            this.Close();
+        }
     }
 }
