@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace Fabrica_abstracta
 {
-    public abstract class Restaurantes
+    public abstract class Restaurantes//uwu
     {
         public abstract Comida PedirComida();
         public abstract Bebida ServirBebida();

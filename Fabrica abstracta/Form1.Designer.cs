@@ -28,42 +28,53 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Iniciar = new System.Windows.Forms.Button();
-            this.inicio = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.inicio)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // Iniciar
             // 
-            this.Iniciar.Location = new System.Drawing.Point(338, 279);
+            this.Iniciar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Iniciar.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.Iniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Iniciar.Font = new System.Drawing.Font("Perpetua", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Iniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Iniciar.Location = new System.Drawing.Point(312, 375);
             this.Iniciar.Name = "Iniciar";
-            this.Iniciar.Size = new System.Drawing.Size(75, 23);
+            this.Iniciar.Size = new System.Drawing.Size(101, 32);
             this.Iniciar.TabIndex = 0;
             this.Iniciar.Text = "Iniciar";
-            this.Iniciar.UseVisualStyleBackColor = true;
+            this.Iniciar.UseVisualStyleBackColor = false;
             this.Iniciar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // inicio
+            // pictureBox1
             // 
-            this.inicio.Image = global::Fabrica_abstracta.Properties.Resources.comida;
-            this.inicio.Location = new System.Drawing.Point(255, 53);
-            this.inicio.Name = "inicio";
-            this.inicio.Size = new System.Drawing.Size(233, 205);
-            this.inicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.inicio.TabIndex = 1;
-            this.inicio.TabStop = false;
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(141, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(443, 349);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.inicio);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(712, 419);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Iniciar);
             this.Name = "Form1";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.inicio)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -71,7 +82,7 @@
         #endregion
 
         private System.Windows.Forms.Button Iniciar;
-        private System.Windows.Forms.PictureBox inicio;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -104,5 +104,10 @@ namespace Fabrica_abstracta
         {
 
         }
+
+        private void panel_italiano_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

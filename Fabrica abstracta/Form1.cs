@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using MaterialSkin;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -27,6 +28,16 @@ namespace Fabrica_abstracta
             Elegir elegir1 = new Elegir(this);
             elegir1.Show();
             this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
