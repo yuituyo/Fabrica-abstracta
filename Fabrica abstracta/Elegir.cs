@@ -1,0 +1,98 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Fabrica_abstracta
+{
+    public partial class Elegir : Form
+    {
+        Form _anterior;
+
+        public Elegir(Form anterior)
+        {
+            InitializeComponent();
+            _anterior = anterior;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Mexicano mex1 = new Mexicano(this);
+            mex1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Mexicano mex1 = new Mexicano(this);
+            mex1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Chino chino1 = new Chino(this);
+            chino1.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Chino chino1 = new Chino(this);
+            chino1.Show();
+            this.Hide();
+        }
+
+        private void Elegir_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _anterior.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Japones japo1 = new Japones(this);
+            japo1.Show();
+            this.Hide();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Japones japo1 = new Japones(this);
+            japo1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Italiano ita = new Italiano(this);
+            ita.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Italiano ita = new Italiano(this);
+            ita.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Americanocs americanos1 = new Americanocs(this);
+            americanos1.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Americanocs americanos1 = new Americanocs(this);
+            americanos1.Show();
+            this.Hide();
+        }
+    }
+}
