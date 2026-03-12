@@ -222,6 +222,7 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Name = "Italiano";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Italiano";
             this.Load += new System.EventHandler(this.Italiano_Load);
             this.panel2.ResumeLayout(false);
