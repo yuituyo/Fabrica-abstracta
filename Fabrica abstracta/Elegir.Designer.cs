@@ -58,10 +58,10 @@
             this.label6.BackColor = System.Drawing.SystemColors.Window;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Baskerville Old Face", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(695, 203);
+            this.label6.Location = new System.Drawing.Point(670, 203);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(149, 66);
+            this.label6.Size = new System.Drawing.Size(209, 66);
             this.label6.TabIndex = 5;
             this.label6.Text = "\"Menu\"";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
