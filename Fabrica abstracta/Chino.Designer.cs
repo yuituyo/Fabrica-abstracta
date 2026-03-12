@@ -89,7 +89,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Fabrica_abstracta.Properties.Resources.pngwing_com__2_;
+            this.pictureBox2.Image = global::Fabrica_abstracta.Properties.Resources.Screenshot_2026_03_12_003457;
             this.pictureBox2.Location = new System.Drawing.Point(326, 36);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
@@ -124,9 +124,9 @@
 
         #endregion
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
