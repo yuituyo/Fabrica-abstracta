@@ -42,10 +42,21 @@ namespace Fabrica_abstracta
             postre.OrdenarP();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             _anterior.Show();
             this.Close();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

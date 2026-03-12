@@ -144,6 +144,7 @@
     <None Include="Resources\comida.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Screenshot 2026-03-12 002207.png" />
     <None Include="Resources\Screenshot 2026-03-12 001637.png" />
     <None Include="Resources\Screenshot 2026-03-12 001415.png" />
     <None Include="Resources\Screenshot 2026-03-11 234648.png" />
