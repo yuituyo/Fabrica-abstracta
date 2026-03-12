@@ -127,6 +127,12 @@
   <data name="mexicana_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mexicana_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="japoonn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\japoonn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="americaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americaaa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="base (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\base (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +174,9 @@
   </data>
   <data name="chino_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chino_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italiaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italiaaa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="meexxx" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\meexxx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,6 +223,9 @@
   <data name="mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mexico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="meexxx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meexxx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="baseM" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -229,19 +241,10 @@
   <data name="americana_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\americana_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="americaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\americaaa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="italiaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\italiaaa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="japoonn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\japoonn1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="chinaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chinaa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="meexxx1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\meexxx1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

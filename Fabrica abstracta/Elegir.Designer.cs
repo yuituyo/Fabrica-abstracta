@@ -173,7 +173,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::Fabrica_abstracta.Properties.Resources.mexico;
+            this.pictureBox6.Image = global::Fabrica_abstracta.Properties.Resources.image;
             this.pictureBox6.Location = new System.Drawing.Point(678, 12);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(166, 178);
