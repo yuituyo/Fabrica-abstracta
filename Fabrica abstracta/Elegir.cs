@@ -27,20 +27,6 @@ namespace Fabrica_abstracta
             this.Hide();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Mexicano mex1 = new Mexicano(this);
-            mex1.Show();
-            this.Hide();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            Chino chino1 = new Chino(this);
-            chino1.Show();
-            this.Hide();
-        }
-
         private void label2_Click(object sender, EventArgs e)
         {
             Chino chino1 = new Chino(this);
@@ -51,13 +37,6 @@ namespace Fabrica_abstracta
         private void Elegir_FormClosed(object sender, FormClosedEventArgs e)
         {
             _anterior.Show();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            Japones japo1 = new Japones(this);
-            japo1.Show();
-            this.Hide();
         }
 
         private void label3_Click(object sender, EventArgs e)
