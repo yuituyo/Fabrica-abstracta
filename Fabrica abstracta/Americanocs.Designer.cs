@@ -222,6 +222,7 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Name = "Americanocs";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Americanos";
             this.Load += new System.EventHandler(this.Americanocs_Load);
             this.panel2.ResumeLayout(false);

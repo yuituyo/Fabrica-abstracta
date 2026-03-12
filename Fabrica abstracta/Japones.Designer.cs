@@ -223,6 +223,7 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel1);
             this.Name = "Japones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Japones";
             this.Load += new System.EventHandler(this.Japones_Load);
             this.panel2.ResumeLayout(false);

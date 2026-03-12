@@ -210,6 +210,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Mexicano";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mexicano";
             this.Load += new System.EventHandler(this.Mexicano_Load);
             this.panel2.ResumeLayout(false);
