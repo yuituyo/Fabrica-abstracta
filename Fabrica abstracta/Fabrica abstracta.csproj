@@ -156,6 +156,7 @@
     <None Include="Resources\americana_1.jpg" />
     <None Include="Resources\americaaa.png" />
     <None Include="Resources\americaaa1.png" />
+    <None Include="Resources\agregar.png" />
     <Content Include="Resources\americana_inicio.png" />
     <None Include="Resources\mexicano_inicio1.png" />
     <None Include="Resources\chino_inicio1.png" />
@@ -174,6 +175,7 @@
     <None Include="Resources\base %282%29.png" />
     <None Include="Resources\baseM.png" />
     <None Include="Resources\chinaa1.png" />
+    <None Include="Resources\atraas.png" />
     <Content Include="Resources\chino_inicio.png" />
     <None Include="Resources\Italiana_3.png" />
     <None Include="Resources\italiana_2.png" />

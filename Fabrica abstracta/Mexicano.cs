@@ -55,5 +55,24 @@ namespace Fabrica_abstracta
         {
 
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            anterior.Show();
+            this.Close();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Restaurantes chino = new RestauranteMexicano();
+
+            Comida comida = chino.PedirComida();
+            Bebida bebida = chino.ServirBebida();
+            Postre postre = chino.OrdenarPostre();
+
+            comida.PedirC();
+            bebida.ServirB();
+            postre.OrdenarP();
+        }
     }
 }
