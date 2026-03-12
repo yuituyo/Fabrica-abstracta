@@ -35,9 +35,10 @@
             // 
             // Iniciar
             // 
-            this.Iniciar.Location = new System.Drawing.Point(338, 279);
+            this.Iniciar.Location = new System.Drawing.Point(507, 429);
+            this.Iniciar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Iniciar.Name = "Iniciar";
-            this.Iniciar.Size = new System.Drawing.Size(75, 23);
+            this.Iniciar.Size = new System.Drawing.Size(112, 35);
             this.Iniciar.TabIndex = 0;
             this.Iniciar.Text = "Iniciar";
             this.Iniciar.UseVisualStyleBackColor = true;
@@ -46,23 +47,26 @@
             // inicio
             // 
             this.inicio.Image = global::Fabrica_abstracta.Properties.Resources.comida;
-            this.inicio.Location = new System.Drawing.Point(255, 53);
+            this.inicio.Location = new System.Drawing.Point(382, 82);
+            this.inicio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.inicio.Name = "inicio";
-            this.inicio.Size = new System.Drawing.Size(233, 205);
+            this.inicio.Size = new System.Drawing.Size(350, 315);
             this.inicio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.inicio.TabIndex = 1;
             this.inicio.TabStop = false;
+//            this.inicio.Click += new System.EventHandler(this.inicio_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.inicio);
             this.Controls.Add(this.Iniciar);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Menu";
-            this.Load += new System.EventHandler(this.Form1_Load);
+//            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.inicio)).EndInit();
             this.ResumeLayout(false);
 
