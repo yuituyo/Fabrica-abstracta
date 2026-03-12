@@ -64,11 +64,11 @@ namespace Fabrica_abstracta
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            Restaurantes chino = new RestauranteMexicano();
+            Restaurantes mex = new RestauranteMexicano();
 
-            Comida comida = chino.PedirComida();
-            Bebida bebida = chino.ServirBebida();
-            Postre postre = chino.OrdenarPostre();
+            Comida comida = mex.PedirComida();
+            Bebida bebida = mex.ServirBebida();
+            Postre postre = mex.OrdenarPostre();
 
             comida.PedirC();
             bebida.ServirB();

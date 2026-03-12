@@ -31,11 +31,11 @@ namespace Fabrica_abstracta
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Restaurantes chino = new RestauranteJapones();
+            Restaurantes japo = new RestauranteJapones();
 
-            Comida comida = chino.PedirComida();
-            Bebida bebida = chino.ServirBebida();
-            Postre postre = chino.OrdenarPostre();
+            Comida comida = japo.PedirComida();
+            Bebida bebida = japo.ServirBebida();
+            Postre postre = japo.OrdenarPostre();
 
             comida.PedirC();
             bebida.ServirB();
