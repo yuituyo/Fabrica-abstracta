@@ -144,6 +144,8 @@
     <None Include="Resources\comida.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\tacos.png" />
+    <None Include="Resources\vase.png" />
     <None Include="Resources\usa-removebg-preview.png" />
     <None Include="Resources\usa.png" />
     <None Include="Resources\mexico.png" />
@@ -164,6 +166,10 @@
     <None Include="Resources\Chino_2.png" />
     <None Include="Resources\Chino_1.png" />
     <None Include="Resources\china.png" />
+    <None Include="Resources\base.png" />
+    <None Include="Resources\base1.png" />
+    <None Include="Resources\base %281%29.png" />
+    <None Include="Resources\base %282%29.png" />
     <Content Include="Resources\chino_inicio.png" />
     <None Include="Resources\Italiana_3.png" />
     <None Include="Resources\italiana_2.png" />

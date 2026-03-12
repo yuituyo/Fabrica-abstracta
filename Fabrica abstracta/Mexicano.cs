@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing.Drawing2D;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -40,8 +41,19 @@ namespace Fabrica_abstracta
 
         private void button2_Click(object sender, EventArgs e)
         {
+
             anterior.Show();
             this.Close();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

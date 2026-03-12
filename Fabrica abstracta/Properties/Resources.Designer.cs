@@ -63,6 +63,16 @@ namespace Fabrica_abstracta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _base {
+            get {
+                object obj = ResourceManager.GetObject("base", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Amerianca_2 {
             get {
                 object obj = ResourceManager.GetObject("Amerianca_2", resourceCulture);
@@ -116,6 +126,36 @@ namespace Fabrica_abstracta.Properties {
         internal static System.Drawing.Bitmap baguettes_1 {
             get {
                 object obj = ResourceManager.GetObject("baguettes-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap base__1_ {
+            get {
+                object obj = ResourceManager.GetObject("base (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap base__2_ {
+            get {
+                object obj = ResourceManager.GetObject("base (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap base1 {
+            get {
+                object obj = ResourceManager.GetObject("base1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,6 +403,16 @@ namespace Fabrica_abstracta.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap tacos {
+            get {
+                object obj = ResourceManager.GetObject("tacos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap usa {
             get {
                 object obj = ResourceManager.GetObject("usa", resourceCulture);
@@ -376,6 +426,16 @@ namespace Fabrica_abstracta.Properties {
         internal static System.Drawing.Bitmap usa_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("usa-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vase {
+            get {
+                object obj = ResourceManager.GetObject("vase", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
