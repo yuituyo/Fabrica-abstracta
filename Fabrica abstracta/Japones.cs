@@ -46,5 +46,10 @@ namespace Fabrica_abstracta
             bebida.ServirB();
             postre.OrdenarP();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

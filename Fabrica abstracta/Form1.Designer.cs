@@ -41,9 +41,10 @@
             this.Iniciar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Iniciar.Font = new System.Drawing.Font("Baskerville Old Face", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Iniciar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Iniciar.Location = new System.Drawing.Point(409, 570);
+            this.Iniciar.Location = new System.Drawing.Point(722, 524);
+            this.Iniciar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Iniciar.Name = "Iniciar";
-            this.Iniciar.Size = new System.Drawing.Size(162, 62);
+            this.Iniciar.Size = new System.Drawing.Size(108, 41);
             this.Iniciar.TabIndex = 0;
             this.Iniciar.Text = "Iniciar";
             this.Iniciar.UseVisualStyleBackColor = false;
@@ -55,9 +56,10 @@
             this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(267, 215);
+            this.pictureBox1.Location = new System.Drawing.Point(627, 294);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(442, 349);
+            this.pictureBox1.Size = new System.Drawing.Size(295, 227);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -65,13 +67,12 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(963, 826);
+            this.ClientSize = new System.Drawing.Size(1540, 845);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Iniciar);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";

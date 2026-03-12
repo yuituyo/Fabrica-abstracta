@@ -44,10 +44,9 @@
             this.label6.BackColor = System.Drawing.SystemColors.Window;
             this.label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label6.Font = new System.Drawing.Font("Baskerville Old Face", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(462, 49);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(656, 18);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(573, 66);
+            this.label6.Size = new System.Drawing.Size(382, 43);
             this.label6.TabIndex = 36;
             this.label6.Text = "Restaurante Americano";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -55,10 +54,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Fabrica_abstracta.Properties.Resources.Screenshot_2026_03_12_004710;
-            this.pictureBox1.Location = new System.Drawing.Point(111, 143);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(423, 93);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1043, 723);
+            this.pictureBox1.Size = new System.Drawing.Size(695, 470);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
@@ -66,10 +64,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Fabrica_abstracta.Properties.Resources.usa_removebg_preview;
-            this.pictureBox2.Location = new System.Drawing.Point(298, 14);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(545, -2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(196, 137);
+            this.pictureBox2.Size = new System.Drawing.Size(131, 89);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 37;
             this.pictureBox2.TabStop = false;
@@ -77,10 +74,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Fabrica_abstracta.Properties.Resources.flecha;
-            this.pictureBox3.Location = new System.Drawing.Point(111, 876);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox3.Location = new System.Drawing.Point(442, 513);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(109, 57);
+            this.pictureBox3.Size = new System.Drawing.Size(73, 37);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 39;
             this.pictureBox3.TabStop = false;
@@ -89,10 +85,9 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Fabrica_abstracta.Properties.Resources.agregar1;
-            this.pictureBox4.Location = new System.Drawing.Point(965, 876);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox4.Location = new System.Drawing.Point(970, 513);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(189, 57);
+            this.pictureBox4.Size = new System.Drawing.Size(126, 37);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 40;
             this.pictureBox4.TabStop = false;
@@ -100,16 +95,15 @@
             // 
             // Americanocs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1251, 949);
+            this.ClientSize = new System.Drawing.Size(1540, 845);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label6);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Americanocs";
             this.Text = "Americanos";
             this.Load += new System.EventHandler(this.Americanocs_Load);
