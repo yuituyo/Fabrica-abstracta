@@ -127,6 +127,9 @@
   <data name="mexicana_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mexicana_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="italina_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italina_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="usa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\usa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -157,14 +160,17 @@
   <data name="baguettes-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baguettes-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="japones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\japones.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="americana_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\americana_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="chino_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chino_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="meexxx" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\meexxx.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Chino_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chino_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +181,8 @@
   <data name="china" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\china.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mexico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="americana_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americana_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Japones_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Japones_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,8 +196,11 @@
   <data name="mexicano_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mexicano_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="italina_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\italina_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="japones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\japones.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usa-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usa-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mexicana_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mexicana_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,8 +211,8 @@
   <data name="italiana_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\italiana_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="americana_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\americana_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mexico" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mexico.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Japones_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Japones_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -214,7 +223,16 @@
   <data name="americana_inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\americana_inicio1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usa-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usa-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="americaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\americaaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="italiaaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\italiaaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="japoonn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\japoonn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="chinaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chinaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

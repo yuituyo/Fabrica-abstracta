@@ -152,6 +152,7 @@
     <None Include="Resources\americana_3.jpg" />
     <None Include="Resources\Amerianca_2.png" />
     <None Include="Resources\americana_1.jpg" />
+    <None Include="Resources\americaaa.png" />
     <Content Include="Resources\americana_inicio.png" />
     <None Include="Resources\mexicano_inicio1.png" />
     <None Include="Resources\chino_inicio1.png" />
@@ -164,12 +165,15 @@
     <None Include="Resources\Chino_2.png" />
     <None Include="Resources\Chino_1.png" />
     <None Include="Resources\china.png" />
+    <None Include="Resources\chinaa.png" />
     <Content Include="Resources\chino_inicio.png" />
     <None Include="Resources\Italiana_3.png" />
     <None Include="Resources\italiana_2.png" />
     <None Include="Resources\Italiana_1.png" />
+    <None Include="Resources\image.png" />
     <Content Include="Resources\inicio.jpg" />
     <None Include="Resources\italia.png" />
+    <None Include="Resources\italiaaa.png" />
     <Content Include="Resources\italina_inicio.png" />
     <None Include="Resources\Japones_11.jpg" />
     <None Include="Resources\Japones_3.png" />
@@ -181,6 +185,8 @@
     <None Include="Resources\mexicana_3.png" />
     <None Include="Resources\mexicana_2.png" />
     <None Include="Resources\mexicana_1.png" />
+    <None Include="Resources\meexxx.png" />
+    <None Include="Resources\japoonn.png" />
     <Content Include="Resources\mexicano_inicio.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
