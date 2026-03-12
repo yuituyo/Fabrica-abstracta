@@ -88,7 +88,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Fabrica_abstracta.Properties.Resources.agregar;
+            this.pictureBox4.Image = global::Fabrica_abstracta.Properties.Resources.agregar1;
             this.pictureBox4.Location = new System.Drawing.Point(941, 878);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox4.Name = "pictureBox4";
