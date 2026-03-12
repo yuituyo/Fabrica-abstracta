@@ -7,13 +7,15 @@ using System.Windows.Forms;
 
 namespace Fabrica_abstracta
 {
-    public abstract class Restaurantes//uwu
+    //Fabrica Central
+    public abstract class Restaurantes
+
     {
         public abstract Comida PedirComida();
         public abstract Bebida ServirBebida();
         public abstract Postre OrdenarPostre();
     }
-
+    //Metodos
     public abstract class Comida
     {
         public abstract void PedirC();
@@ -29,7 +31,7 @@ namespace Fabrica_abstracta
         public abstract void OrdenarP();
     }
 
-    //Fabricas Especificas
+    //Generar Comida
     //Comida Mexicana
     public class Tacos : Comida
     {
@@ -41,7 +43,7 @@ namespace Fabrica_abstracta
             
         }
     }
-
+    //Generar Comida
     public class AguaJamaica : Bebida
     {
         public override void ServirB()
@@ -49,7 +51,7 @@ namespace Fabrica_abstracta
             MessageBox.Show("Bebida: Agua de Jamaica");
         }
     }
-
+    //Generar Postre
     public class PastelTresLeches : Postre
     {
         public override void OrdenarP()
@@ -150,7 +152,7 @@ namespace Fabrica_abstracta
             MessageBox.Show("Postre: Pay de Manzana");
         }
     }
-    //Fabricas concretas
+    //Fabricas Especificas
     public class RestauranteMexicano : Restaurantes
     {
         public override Comida PedirComida()
