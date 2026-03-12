@@ -23,26 +23,6 @@ namespace Fabrica_abstracta
         {
 
         }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Restaurantes japo = new RestauranteJapones();
-
-            Comida comida = japo.PedirComida();
-            Bebida bebida = japo.ServirBebida();
-            Postre postre = japo.OrdenarPostre();
-
-            comida.PedirC();
-            bebida.ServirB();
-            postre.OrdenarP();
-        }
-
-
         private void label6_Click(object sender, EventArgs e)
         {
 
@@ -56,7 +36,15 @@ namespace Fabrica_abstracta
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            Restaurantes japo = new RestauranteJapones();
 
+            Comida comida = japo.PedirComida();
+            Bebida bebida = japo.ServirBebida();
+            Postre postre = japo.OrdenarPostre();
+
+            comida.PedirC();
+            bebida.ServirB();
+            postre.OrdenarP();
         }
     }
 }
