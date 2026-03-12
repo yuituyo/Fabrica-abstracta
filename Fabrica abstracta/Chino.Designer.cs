@@ -78,7 +78,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Fabrica_abstracta.Properties.Resources.china;
-            this.pictureBox2.Location = new System.Drawing.Point(386, 57);
+            this.pictureBox2.Location = new System.Drawing.Point(336, 57);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(150, 118);
