@@ -25,7 +25,7 @@ namespace Fabrica_abstracta
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             Restaurantes chino = new RestauranteChino();
 
@@ -36,12 +36,9 @@ namespace Fabrica_abstracta
             comida.PedirC();
             bebida.ServirB();
             postre.OrdenarP();
-
-
-
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             anterior.Show();
             this.Close();

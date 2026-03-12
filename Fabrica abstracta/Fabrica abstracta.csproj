@@ -144,6 +144,7 @@
     <None Include="Resources\comida.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Screenshot 2026-03-11 234648.png" />
     <None Include="Resources\tacos.png" />
     <None Include="Resources\vase.png" />
     <None Include="Resources\usa-removebg-preview.png" />
@@ -157,6 +158,7 @@
     <None Include="Resources\americaaa.png" />
     <None Include="Resources\americaaa1.png" />
     <None Include="Resources\agregar.png" />
+    <None Include="Resources\agregar1.png" />
     <Content Include="Resources\americana_inicio.png" />
     <None Include="Resources\mexicano_inicio1.png" />
     <None Include="Resources\chino_inicio1.png" />
@@ -182,6 +184,7 @@
     <None Include="Resources\Italiana_1.png" />
     <None Include="Resources\image.png" />
     <None Include="Resources\image1.png" />
+    <None Include="Resources\flecha.png" />
     <Content Include="Resources\inicio.jpg" />
     <None Include="Resources\italia.png" />
     <None Include="Resources\italiaaa.png" />
