@@ -35,16 +35,7 @@ namespace Fabrica_abstracta
 
         }
 
-        private void panel_italiano_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void materialButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             Mexicano mex1 = new Mexicano(this);
