@@ -147,7 +147,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Fabrica_abstracta.Properties.Resources.Japones_3;
+            this.pictureBox4.Image = global::Fabrica_abstracta.Properties.Resources.mexico;
             this.pictureBox4.Location = new System.Drawing.Point(11, 3);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(71, 38);
