@@ -153,7 +153,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Fabrica_abstracta.Properties.Resources.china;
+            this.pictureBox2.Image = global::Fabrica_abstracta.Properties.Resources.pngwing_com__2_;
             this.pictureBox2.Location = new System.Drawing.Point(654, 288);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(225, 228);
