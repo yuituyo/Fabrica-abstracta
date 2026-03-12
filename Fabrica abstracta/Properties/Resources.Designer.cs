@@ -543,6 +543,16 @@ namespace Fabrica_abstracta.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2026_03_12_003842 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2026-03-12 003842", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap tacos {
             get {
                 object obj = ResourceManager.GetObject("tacos", resourceCulture);

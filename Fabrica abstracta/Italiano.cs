@@ -24,8 +24,13 @@ namespace Fabrica_abstracta
         {
 
         }
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            anterior.Show();
+            this.Close();
+        }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
             Restaurantes ita = new RestauranteItaliano();
 
@@ -36,12 +41,6 @@ namespace Fabrica_abstracta
             comida.PedirC();
             bebida.ServirB();
             postre.OrdenarP();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            anterior.Show();
-            this.Close();
         }
     }
 }
